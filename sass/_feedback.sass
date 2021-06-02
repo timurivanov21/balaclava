@@ -1,0 +1,98 @@
+.feedback
+  padding: 88px 0
+  background: $services-bg url('../img/bathhouse/feedback/feedback-bg.jpg') no-repeat center center
+  background-size: cover
+  &-title
+    margin-top: 0
+    text-align: center
+    color: #fff
+    font:
+      family: 'Franklin Gothic Heavy', sans-serif
+      size: 48px
+      weight: 400
+    line-height: 50px
+    text-transform: uppercase
+    margin-bottom: 30px
+  &-wrap
+    display: flex
+    justify-content: space-between
+  &-info
+    flex-basis: 31.6%
+    text-align: center
+    &__title
+      color: #ffffff
+      font:
+        family: 'Roboto Bold', sans-serif
+        size: 17px
+        weight: 700
+      line-height: 21px
+      text-transform: uppercase
+      margin-bottom: -10px
+    &__text
+      line-height: 23px
+      color: #fff
+      font:
+        family: 'Roboto Regular', sans-serif
+        size: 14px
+        weight: 400
+      &-hidden
+        display: block
+  &-form
+    width: 86%
+    display: flex
+    justify-content: space-between
+    margin: 24px auto 0
+    flex-wrap: wrap
+    &__item
+      flex-basis: 32.6%
+      position: relative
+      &::before
+        content: ''
+        position: absolute
+        top: 24px
+        transform: translateY(-50%)
+        left: 18px
+        width: 20px
+        height: 20px
+        background: url('../img/bathhouse/feedback/feedback-img1.svg') no-repeat center center
+        background-size: cover
+      &-input
+        padding: 10px 0 16px 46px
+        width: 100%
+        color: #606060
+        font:
+          family: 'Roboto Regular', sans-serif
+          size: 12px
+          weight: 300
+        line-height: 24px
+      &:nth-child(2)::before
+        background: url('../img/bathhouse/feedback/feedback-img2.svg') no-repeat center center
+        left: 14px
+        top: 26px
+      &:nth-child(3)::before
+        background: url('../img/bathhouse/feedback/feedback-img3.svg') no-repeat center center
+        top: 24px
+    &__textarea
+      margin-top: 11px
+      position: relative
+      flex-basis: 100%
+      &::before
+        content: ''
+        position: absolute
+        top: 14px
+        left: 20px
+        width: 19px
+        height: 19px
+        background: url('../img/bathhouse/feedback/feedback-img4.svg') no-repeat center center
+        background-size: cover
+      textarea
+        width: 100%
+        padding: 14px 47px 20px
+        letter-spacing: -0.5px
+  &-button
+    margin: 21px auto 0
+    background-color: $secondary-color
+    box-shadow: 0px 0px 0px 3px rgb(125, 93, 61)
+    border: none
+    &:hover
+      background-color: darken($secondary-color, 15%)

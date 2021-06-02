@@ -1,0 +1,134 @@
+.rooms
+  padding-bottom: 50px
+  &-title
+    color: $primary-color
+    font-family: 'Roboto Regular', sans-serif
+    font:
+      size: 30px
+      weight: 700
+    line-height: 24px
+    margin: 40px 0 0 0
+  &-wrap
+    display: flex
+    padding: 26px 0 20px
+    &:not(:last-child)
+      border-bottom: 1px solid #efefef
+  &-slider
+    flex-basis: 40%
+    width: 458px
+    &-giant
+      &__item
+        &-img
+          width: 100%
+          height: 280px
+    &-small
+      padding-left: 5px
+      width: 400px
+      position: relative
+      margin: 0 auto
+      &__item
+        margin: 9px 0px
+        position: relative
+        &::before
+          content: ''
+          position: absolute
+          width: 96%
+          height: 100%
+          top: 0
+          left: 0
+          right: 0
+          bottom: 0
+          background-color: rgba(#000, 0.6)
+        &-img
+          width: 126px
+          height: 80px
+  &-descr
+    padding-top: 7px
+    padding-left: 30px
+    flex-basis: 60%
+    color: $primary-color
+    font-family: 'Roboto Regular', sans-serif
+    &__title
+      color: $secondary-color
+      font:
+        size: 19px
+        weight: 700
+      line-height: 24px
+      margin-bottom: 8px
+      position: relative
+      &::before
+        content: ''
+        position: absolute
+        top: -15px
+        left: 0
+        width: 40px
+        height: 2px
+        background-color: #ccc
+    &__text
+      font:
+        size: 14px
+        weight: 300
+      line-height: 22px
+      margin: 0
+    &__price
+      font:
+        size: 14px
+        weight: 400
+      line-height: 22px
+      &-mini
+        color: #959595
+        font-size: 12px
+      &-star
+        color: $secondary-color
+        font-size: 12px
+        margin-right: 3px
+    &__hidden1
+      margin-top: 12px
+      width: 10px
+      height: 10px
+    &__hidden2
+      margin-top: 32px
+      width: 10px
+      height: 10px
+    &__hidden3
+      margin-top: 28px
+      width: 10px
+      height: 10px
+    &__hidden4
+      margin-top: 10px
+      width: 10px
+      height: 10px
+    &__hidden5
+      margin-top: 26px
+      width: 10px
+      height: 10px
+  &-button
+    padding-right: 34px
+    padding-left: 34px
+    margin-top: 10px
+    background-color: $secondary-color
+    box-shadow: 0px 0px 0px 3px rgb(243, 243, 243)
+    &:hover
+      background-color: darken($secondary-color, 15%)
+.slick
+  &-current
+    outline: none
+    &::before
+      display: none
+  &-active
+    outline: none
+.arrow
+  position: absolute
+  top: 50%
+  transform: translateY(-50%)
+  width: 6px
+  height: 25px
+  cursor: pointer
+  &-prev
+    background: url('../img/rooms/slider/arrow-prev.png') no-repeat center center
+    background-size: cover
+    left: -22px
+  &-next
+    background: url('../img/rooms/slider/arrow-next.png') no-repeat center center
+    background-size: cover
+    right: -20px

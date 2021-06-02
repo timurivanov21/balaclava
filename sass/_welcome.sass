@@ -1,0 +1,31 @@
+.welcome
+  padding: 20px 0 48px
+  border-bottom: 1px solid rgba($line-color, 0.5)
+  &-wrap
+    display: flex
+    align-items: center
+  &-text
+    padding-right: 25px
+    flex-basis: 60%
+    color: $primary-color
+    font-family: 'Roboto Regular', sans-serif
+    &__title
+      margin: 4px 0 39px
+      font:
+        size: 32px
+        weight: 700
+      line-height: 24px
+      position: relative
+      &::before
+        content: ''
+        width: 56px
+        height: 5px
+        background-color: $secondary-color
+        position: absolute
+        bottom: -26px
+        left: 0
+    &__descr
+      font:
+        size: 16px
+        weight: 300
+      line-height: 24px

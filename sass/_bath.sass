@@ -1,0 +1,50 @@
+.bath
+  background: $primary-color url('../img/bathhouse/bath-bg.jpg') no-repeat center center
+  background-size: cover
+  color: #fff
+  font-family: "Franklin Gothic Heavy", sans-serif
+  padding-top: 95px
+  text-align: center
+  margin-top: -16px
+  padding-bottom: 40px
+  &-title
+    font:
+      size: 113px
+      weight: 400
+    line-height: 90px
+    text-transform: uppercase
+    margin: 20px 0 55px
+  &-subtitle
+    font:
+      size: 48px
+      weight: 400
+    line-height: 24px
+    text-transform: uppercase
+    position: relative
+    margin-bottom: 55px
+    &::before
+      content: ''
+      position: absolute
+      width: 583px
+      background-color: #fff
+      height: 1px
+      left: 50%
+      transform: translateX(-50%)
+      bottom: -34px
+  &-descr
+    max-width: 800px
+    margin: 0 auto
+    font:
+      family: 'Open Sans', sans-serif
+      size: 19px
+      weight: 400
+    line-height: 26px
+  &-button
+    border: none
+    background-color: $secondary-color
+    box-shadow: 0px 0px 0px 3px rgba(158, 117, 69, 0.8)
+    margin-top: 40px
+    &:hover
+      background-color: darken($secondary-color, 15%)
+.all-bath-header
+  margin-bottom: 0

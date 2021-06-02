@@ -1,0 +1,127 @@
+.backcom
+  padding: 50px
+  &-title
+    display: inline-block
+    color: #333333
+    font:
+      family: 'Roboto Regular', sans-serif
+      size: 28px
+      weight: 400
+    &:first-child
+      margin-right: 665px
+  &-wrap
+    display: flex
+    justify-content: space-between
+  &-form
+    margin-top: 0
+    display: flex
+    justify-content: space-between
+    flex-basis: 74%
+    flex-wrap: wrap
+    &__item
+      flex-basis: 49%
+      &:nth-child(1)::before
+        z-index: 995
+        top: 23px
+        left: 16px
+      &:nth-child(2)::before
+        z-index: 995
+        background: url('../img/bathhouse/feedback/feedback-img3.svg') no-repeat center center
+        background-size: cover
+        width: 19px
+        height: 17px
+        top: 25px
+        left: 19px
+      &-input
+        flex-basis: 49%
+        color: #606060
+        font:
+          family: 'Roboto Regular', sans-serif
+          size: 12px
+          weight: 300
+        position: relative
+        padding: 11px 0 13px 44px
+        margin-bottom: 15px
+    &__textarea
+      margin-top: 0
+      &::before
+        top: 16px
+      textarea
+        padding-top: 18px
+        margin-bottom: 15px
+    &__button
+      height: 60px
+      background-color: $secondary-color
+      padding: 0 50px
+      &:hover
+        background-color: darken($secondary-color, 15%)
+  &-social
+    flex-basis: 26%
+    &__list
+      margin: 0
+      padding-left: 33px
+      list-style: none
+      &-item
+        margin-bottom: 3px
+        padding: 11px 0 13px 55px
+        text-transform: uppercase
+        position: relative
+        background-color: #4c75a3
+        &:hover
+          cursor: pointer
+          background-color: darken(#4c75a3, 15%)
+        &:nth-child(2)
+          background-color: #3b5a9b
+          &:hover
+            background-color: darken(#3b5a9b, 15%)
+        &:nth-child(3)
+          background-color: #dc4a38
+          &:hover
+            background-color: darken(#dc4a38, 15%)
+        &__link
+          color: #fff
+          text-decoration: none
+          line-height: 20px
+          font:
+            family: 'Roboto Regular', sans-serif
+            size: 13px
+            weight: 500
+        &::after
+          content: ''
+          position: absolute
+          left: 41px
+          top: 0
+          opacity: 0.4
+          width: 1px
+          height: 100%
+          background-color: #fff
+        &:first-child::before
+          content: ''
+          position: absolute
+          top: 50%
+          transform: translateY(-50%)
+          left: 13px
+          width: 18px
+          height: 11px
+          background: url('../img/contacts/social-vk.png') no-repeat center center 
+          background-size: cover
+        &:nth-child(2)::before
+          content: ''
+          position: absolute
+          top: 50%
+          transform: translateY(-50%)
+          left: 16px
+          width: 8px
+          height: 18px
+          background: url('../img/contacts/social-fb.png') no-repeat center center 
+          background-size: cover
+        &:last-child::before
+          content: ''
+          position: absolute
+          top: 50%
+          transform: translateY(-50%)
+          left: 14px
+          width: 18px
+          height: 19px
+          background: url('../img/contacts/social-g.png') no-repeat center center 
+          background-size: cover

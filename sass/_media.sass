@@ -1,0 +1,771 @@
+@media (max-width: 4000px)
+  .container
+    width: 1140px
+    margin: 0 auto
+  .header
+    &-wrap
+      width: 1140px
+  .mobile-menu
+    display: none
+  .all
+    &-footer
+      &-nav
+        &__item
+          margin-left: 37px
+@media (max-width: 1400px) and (min-width: 1201px)
+  .main
+    background-size: cover
+@media (max-width: 1200px)
+  .all-menuBurger 
+    display: inline-block
+  .all-nav
+    display: none
+    background: $services-bg
+    position: absolute
+    top: 46px
+    right: 0
+    left: 0
+    z-index: 22
+    padding: 10px
+    text-align: center
+    box-shadow: 0px 16px 52px -9px rgba(0, 0, 0, 0.75)
+    .header-nav__item
+      float: none
+      padding: 5px 10px
+      &:not(:last-child)
+        border-right: none
+  .all__menu-wrap
+    margin-left: auto
+    margin-right: 30px
+  .container
+    width: 940px
+  .header
+    &-wrap
+      width: 840px
+    &-addres
+      margin-left: 0
+  .all-wrap
+    width: 90%
+  .main
+    background-size: cover
+    &-wrap
+      &__img
+        right: 110px
+        top: -190px
+        transform: scale(0.6)
+    &-title
+      font-size: 110px
+    &-descr
+      max-width: 680px
+  .welcome
+    &-text
+  .comfort
+    &__img
+      padding-right: 90px
+      &-title
+        font-size: 86px
+        &::before
+          left: -30px
+    &__text
+      padding: 46px 0px
+  .services
+    &__img
+      &-title
+        &::before
+          right: -5px
+          width: 157px
+  .gallery
+    &-slider
+      &-mini
+        &__item
+          &::before
+            width: 95%
+  .all
+    &-footer
+      &-nav
+        &__item
+          margin-left: 20px
+  .feedback
+    &-info
+      &__text
+        &-hidden
+          display: none
+  .sightseeings
+    &-item
+      &:last-child
+        margin-left: 24px
+  .contacts
+    &-overlap
+      width: 100%
+  .backcom
+    &-title
+      &:first-child
+        margin-right: 515px
+@media (max-width: 992px) 
+  .btn
+    &:hover
+      background-color: inherit
+  .comfort-button, .services-button, .attractions-button, .feedback-button, .bath-button, .rooms-button
+    &:hover
+      background-color: $secondary-color
+  .attractions-item:hover
+    border-bottom-color: #eeeeee
+  .attractions-item:hover .attractions-item__date::before
+    background-color: #cccccc
+  .footer-nav__link:hover
+    color: #fff
+    font-weight: normal
+  .main-button:hover
+    background-color: darken(#fff, 60%)
+  .container
+    width: 80%
+  .header
+    &-wrap
+      width: 70%
+      justify-content: space-between
+    &-nav
+      display: none
+      background: #fff
+      position: absolute
+      top: 46px
+      right: 0
+      left: 0
+      z-index: 22
+      padding: 10px
+      text-align: center
+      box-shadow: 0px 18px 52px -9px rgba(0, 0, 0, 0.75)
+      &__item
+        float: none
+        padding: 5px 10px
+        &:not(:last-child)
+          border-right: none
+      &__link
+        color: $primary-color
+        &:hover
+          color: inherit
+          cursor: pointer
+          font-weight: normal
+    &-addres
+      margin: 0 auto
+      text-align: left
+  .menuBurger 
+    display: inline-block
+  .main
+    height: auto
+    padding: 80px 0
+    background-size: cover
+    &-wrap
+      &__img
+        display: none
+    &-title
+      font-size: 70px
+      &::before
+        bottom: -16px
+        width: 400px
+    &-descr
+      font-size: 17px
+  .welcome
+    &-wrap
+      flex-wrap: wrap
+      justify-content: center
+      text-align: center
+    &-text
+      flex-basis: 100%
+      margin-bottom: 10px
+      &__title
+        &::before
+          left: 50%
+          transform: translateX(-50%)
+  .advantages
+    padding-bottom: 0
+    &-wrap
+      flex-wrap: wrap
+      justify-content: center
+      padding-bottom: 20px
+    &-item
+      padding: 0 26px
+      flex-basis: 50%
+      margin-bottom: 15px
+      &:last-child
+        margin-bottom: 0
+  .comfort
+    padding: 30px 0
+    &::after
+      width: 100%
+    &-wrap
+      flex-wrap: wrap
+    &__img
+      flex-basis: 100%
+      padding-right: 0
+      &-title
+        text-align: center
+        margin-top: 10px
+        margin-bottom: 20px
+        &::before
+          display: none
+    &__text
+      color: #fff
+      padding: 0
+      flex-basis: 100%
+      text-align: center
+  .services
+    padding: 30px 0
+    &::after
+      width: 100%
+    &-wrap
+      flex-wrap: wrap
+    &__img
+      flex-basis: 100%
+      padding: 0
+      order: 0
+      &-title
+        text-align: center
+        margin: 0 auto 20px
+        &::before
+          display: none
+    &__text
+      color: #fff
+      padding: 0
+      flex-basis: 100%
+      text-align: center
+  .attractions
+    &-wrap
+      justify-content: center
+    &-item
+      flex-basis: 46%
+      margin: 10px
+  .footer
+    &-wrap
+      text-align: center
+      flex-direction: column
+      padding-bottom: 0
+    &-nav
+      margin-top: 20px
+      padding-left: 0
+      display: block
+      &__item
+        margin-left: 0
+    .header-addres__pin::after
+      bottom: -9px
+    &-copyright
+      padding-top: 15px
+  .rooms
+    &-wrap
+      flex-wrap: wrap
+    &-title
+      text-align: center
+    &-slider
+      flex-basis: 100%
+      margin: 0 auto
+      order: 1
+      &-giant
+        margin: 0 auto
+        width: 480px
+    &-descr
+      padding-left: 0
+      flex-basis: 100%
+      margin: 0 auto
+      text-align: center
+      margin-bottom: 15px
+      &__title
+        &::before
+          display: none
+  .options
+    &-title
+      text-align: center
+    &-wrap
+      justify-content: space-around
+    &-item
+      flex-basis: 45%
+      &__hint
+        min-width: 240px
+        top: 60px
+      &:hover .options-item__hint 
+        top: 110px
+  .bath
+    &-title
+      font-size: 100px
+      margin-bottom: 30px
+  .benefits
+    &-item
+      flex-basis: 45%
+  .all__menu-wrap
+    order: 1
+    margin: 0
+  .all-wrap
+    width: 90%
+  .all-nav
+    background: $services-bg
+  .all-footer-nav
+    margin-left: 0
+  .gallery
+    &-slider
+      &-mini
+        width: 600px
+        &__item
+          &::before
+            width: 86%
+    .arrow
+      &-prev
+        left: -24px
+      &-next
+        right: -2px
+  .feedback
+    &-wrap
+      flex-wrap: wrap
+    &-info
+      flex-basis: 80%
+      margin: 0 auto
+    &-form
+      width: 100%
+  .sightseeings
+    &-title
+      text-align: center
+    &-item
+      &:last-child
+        margin: 10px
+  .backcom
+    padding-bottom: 10px
+    &-container
+      text-align: center
+    &-title
+      &:first-child
+        margin-right: 0
+      &__hidden
+        display: none
+    &-wrap
+      flex-wrap: wrap
+    &-form
+      flex-basis: 100%
+    &-social
+      flex-basis: 50%
+      margin: 20px auto
+      &__list
+        padding-left: 0
+  .contacts-about
+    padding-bottom: 0
+  .contacts
+    height: auto
+    &-info
+      margin: 15px auto
+      text-align: center
+      &__addres
+        margin-left: 0
+      &__list
+        padding-left: 0
+        margin-left: 0
+      &__img
+        height: 320px
+        img
+          height: 100%
+          width: 100%
+  #map
+    position: static
+    height: 300px
+    width: 80%
+    margin: 0 auto
+@media (max-width: 768px)
+  .welcome
+    &-text
+      padding-right: 0
+  .advantages
+    padding-bottom: 20px
+    &-item
+      flex-basis: 100%
+  .comfort
+    color: #fff
+    &::before
+      display: none
+    &__img
+      &-title
+        font-size: 70px
+        margin-top: 20px
+    &__text
+      padding-bottom: 0
+  .services
+    padding: 30px 0
+    &__img
+      &-title
+        font-size: 70px
+        margin-bottom: 10px
+  .attractions
+    &-item
+      flex-basis: 50%
+  .rooms
+    &-wrap
+      padding-top: 0
+    &-descr
+      &__hidden1
+        display: none
+      &__hidden2
+        display: none
+      &__hidden3
+        display: none
+      &__hidden4
+        display: none
+      &__hidden5
+        display: none
+  .options
+    &-item
+      &__hint
+        top: 30px
+        min-width: 210px
+      &:hover .options-item__hint
+        top: 80px
+    &-hidden
+      display: none
+  .bath
+    &-title
+      font-size: 80px
+      line-height: 68px
+    &-subtitle
+      margin-top: 20px
+      line-height: 46px
+      &::before
+        width: 500px
+  .gallery
+    padding-top: 20px
+    &-slider
+      &-big
+        display: none
+      &-mini
+        width: 400px
+        height: 300px
+        &__item
+          &-img
+            width: 400px
+            height: 300px
+          &::before
+            display: none
+    .arrow
+      &-prev
+        transform: scale(1.2)
+        top: 56%
+      &-next
+        transform: scale(1.2)
+        top: 54%
+        right: -20px
+  .sightseeings
+    &-item
+      flex-basis: 55%
+  .history
+    padding: 20px
+  .header
+    &-adress
+      &__pin
+        display: none
+  .feedback
+    padding: 30px 0
+    &-title
+      font-size: 38px
+      margin-bottom: 0
+    &-info
+      margin-bottom: -10px
+    &-form
+      flex-wrap: wrap
+      &__item
+        flex-basis: 100%
+        margin-bottom: 11px
+        &:nth-child(2)::before
+          left: 20px
+        &:nth-child(3)::before
+          left: 20px
+      &__textarea
+        margin-top: 0
+  .all
+    &-contacts
+      margin-right: 0
+      text-align: center
+    &-footer
+      &-nav
+        margin-left: 0
+  .contacts-about
+    text-align: center
+  .backcom
+    padding-top: 10px
+    &-form
+      &__item
+        &-input
+          margin-bottom: 0
+      &__textarea
+        textarea
+          margin-bottom: 9px
+      &__button
+        margin: 8px auto 0
+    &-social
+      margin-top: 9px
+      &__list
+        &-item
+          padding-left: 0
+  .g-recaptcha
+    display: flex
+    flex-basis: 100%
+    justify-content: center
+@media (max-width: 690px) and (min-width: 577px)
+  .attractions
+    &-item
+      flex-basis: 60%
+@media (max-width: 600px)
+  .sightseeings
+    &-item
+      flex-basis: 65%
+@media (max-width: 576px) 
+  .container
+    width: 100%
+  .header
+    &-nav
+      right: 0
+  .main
+    padding: 40px 20px
+    background-size: cover
+    &-title
+      font-size: 60px
+      &::before
+        width: 250px
+    &-descr
+      font-size: 15px
+    &-button
+      background-color: darken(#fff, 60%)
+  .welcome
+    &-text
+      &__descr
+        padding: 0 25px
+    &-img
+      img
+        width: 85%
+  .comfort
+    padding: 20px 20px 30px
+    &::after
+      background-position-x: 0px
+    &__img
+      &-title
+        display: none
+    &__text
+      &-title
+        line-height: 28px
+        margin-bottom: 20px
+      &-descr
+        font-size: 15px
+  .services
+    padding: 20px 0 30px
+    &-wrap
+      padding: 0 10px
+    &__img
+      &-title
+        display: none
+    &__text
+      &-title
+        margin-bottom: 20px
+      &-descr
+        font-size: 15px
+  .attractions
+    &-title
+      font-size: 26px
+    &-item
+      flex-basis: 65%
+    &-button
+      margin-bottom: 0
+  .about
+    padding-bottom: 0
+    &-title
+      font-size: 24px
+      line-height: 28px
+  .rooms
+    &-title
+      line-height: 28px
+    &-slider
+      &-giant
+        display: none
+      &-small
+        padding-left: 0
+        width: 300px
+        height: 200px
+        &__item
+          width: 300px
+          height: 200px
+          margin: 0
+          &::before
+            display: none
+          &-img
+            width: 100%
+            height: 100%
+    &-descr
+      padding: 7px 15px 0
+  .about
+    &-title
+      text-align: center
+  .arrow
+    &-prev
+      left: -23px
+    &-next
+      right: -25px
+  .options
+    padding-bottom: 10px
+    &-item
+      flex-basis: 60%
+      &__hint
+        top: 50px
+        min-width: 240px
+      &:hover .options-item__hint
+        top: 120px
+  .sightseeings
+    padding-bottom: 0
+  .bath
+    padding-top: 30px
+    &-title
+      font-size: 60px
+      line-height: 56px
+    &-subtitle
+      font-size: 36px
+      line-height: 34px
+      &::before
+        width: 280px
+  .benefits
+    &-wrap
+      justify-content: center
+    &-item
+      flex-basis: 80%
+  .gallery
+    &-slider
+      &-mini
+        width: 260px
+        height: 200px
+        &__item
+          &-img
+            width: 260px
+            height: 200px
+    .arrow
+      &-prev
+        top: 56%
+        left: -15px
+      &-next
+        top: 55%
+        right: -15px
+  .history
+    text-align: center
+  .feedback
+    &-title
+      font-size: 30px
+      line-height: 32px
+    &-form
+      width: 90%
+  .contacts
+    &-overlap
+      width: 100%
+    &-info
+      margin-top: 0
+      width: 100%
+  #map
+    width: 100%
+  .backcom
+    &-social
+      margin-bottom: 10px
+      flex-basis: 70%
+  .contacts-line
+    margin-top: 0
+  .g-recaptcha
+    display: none
+  .box-modal
+    width: 100%
+  #thanks-modal
+    width: 80%
+    .modal__content
+      padding: 20px
+  .museum
+    padding-bottom: 15px
+@media (max-width: 420px)
+  .all-menuBurger
+    padding: 0
+  .header
+    &-addres
+      &__pin
+        display: none
+  .attractions
+    &-item
+      flex-basis: 80%
+  .options
+    &-item
+      flex-basis: 80%
+      &__hint
+        top: 60px
+        min-width: 220px
+      &:hover .options-item__hint
+        top: 110px
+  .backcom
+    &-social
+      flex-basis: 90%
+@media (min-width: 321px) and (max-width: 470px)
+  .main
+    &-wrap
+      padding: 0 10px
+    &-title
+      font-size: 40px
+    &-descr
+      font-size: 14px
+@media (max-width: 370px)
+  .rooms
+    &-slider
+      &-small
+        width: 240px
+        height: 160px
+        &__item
+          width: 240px
+          height: 160px
+  .arrow
+    &-prev
+      left: -18px
+    &-next
+      right: -20px
+  .bath
+    &-title
+      font-size: 46px
+      line-height: 44px
+    &-subtitle
+      font-size: 30px
+      line-height: 26px
+  .benefits
+    padding-top: 20px
+@media (max-width: 340px)
+  .sightseeings
+    &-item
+      flex-basis: 90%
+@media (max-width: 320px)
+  .main
+    &-title
+      font-size: 35px
+  .welcome
+    &-text
+      padding: 0 5px
+      &__title
+        line-height: 32px
+      &__descr
+        font-size: 15px
+  .comfort
+    &__text
+      &-title
+        font-size: 30px
+        margin-bottom: 10px
+  .attractions
+    &-wrap
+      margin-top: 30px
+    &-item
+      flex-basis: 90%
+    &-button
+      margin: 18px
+  .header
+    &-addres
+      &__contacts
+        &-tel
+          font-size: 16px
+        &-location
+          font-size: 10px
+          max-width: 129px
+  #map
+    width: 100%
+  .backcom
+    &-social
+      flex-basis: 90%
+    
+  
+
+  
