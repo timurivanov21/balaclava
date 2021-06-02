@@ -1,3 +1,3 @@
 # balaclava
 
-Thesis from the course "Академия верстки"
+Сайт для кампании Балаклава
