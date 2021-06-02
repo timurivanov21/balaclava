@@ -1,3 +1,3 @@
 # balaclava
 
-Thesis from the courses "Академия верстки"
+Thesis from the course "Академия верстки"
